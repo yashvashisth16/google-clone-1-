@@ -11,10 +11,11 @@
             .youtube-button { background-color: rgb(255, 5, 5);
             color: whitesmoke;
             border: none;
-            height: 30px;
+            height: 50px;
             width: 100px;
-            border-radius: 4px;
-            cursor: pointer;}
+            cursor: pointer;
+            transition: width,1.3s;   
+            }
             
             .insta-button { width:100px; height:100px;
                 background: #f09433; 
@@ -29,6 +30,7 @@
             cursor: pointer;
             border-radius: 6px;
             border-style: solid;
+            transition: width,0.5s;
             }
 
             .search-button{width: fit-content;
@@ -39,6 +41,19 @@
 
             }
 
+            .pics{
+                text-align: center;
+            }
+
+            .insta-button:hover{
+                width: 120px;
+                
+            }
+            .youtube-button:hover{
+                width: 145px;
+             }
+        
+
         </style>
         
         
@@ -47,24 +62,30 @@
         target="_main" is used to open website in another tab-->
         
         <br><br><br><br>
-        <pre>
-                                                                        <img src="https://tse2.mm.bing.net/th?id=OIP.Iq_AG0Nci05ecwQDcL8csAHaCg&pid=Api&P=0&h=180" alt="google" height="100">
-        
-                                                    <a href="https://www.google.com/" target="_blank"><button class="search-button" >search</button></a><br>
-                                                                                    <a href="https://www.instagram.com" target="_blank" ><img src="https://tse4.mm.bing.net/th?id=OIP.JtmXSh_uyZBaTg1eXd-NtgHaHa&pid=Api&P=0&h=180" title="insta" width=50 ></a><a href="https://www.youtube.com/" target="_blank"><img src="https://tse4.mm.bing.net/th?id=OIP.aByvAl4Fl4Dk3N9fA3IudwAAAA&pid=Api&P=0&h=180 " title="youtube.com" width="60" height="50"></a>
+        <pre class="pics">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.Iq_AG0Nci05ecwQDcL8csAHaCg&pid=Api&P=0&h=180" alt="google" height="100">
+        <a href="https://www.google.com/" target="_blank" title="google.com"><button class="search-button" >search</button></a><br>
+        <a href="https://www.instagram.com" target="_blank" ><img src="https://tse4.mm.bing.net/th?id=OIP.JtmXSh_uyZBaTg1eXd-NtgHaHa&pid=Api&P=0&h=180" title="instagram.com" width=50 ></a><a href="https://www.youtube.com/" target="_blank"><img src="https://tse4.mm.bing.net/th?id=OIP.aByvAl4Fl4Dk3N9fA3IudwAAAA&pid=Api&P=0&h=180 " title="youtube.com" width="60" height="50"></a>
         </pre>
         <br><br><br><br><br>
         <hr>
         <!--<p>3<sup>3</sup>=9 sup is used to create superscript-->
     <!-- H<sub>2</sub>o sub is used to create sub script--></p>
     <b><big><u><I>Brief history of google</I></u></big></b>
-    <p>Google Chrome is a web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, where it serves as the platform for web applications.
+    <p>Google Chrome is a web browser developed by Google.
+         It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox.
+          Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser.
+           The browser is also the main component of ChromeOS, where it serves as the platform for web applications.
         <br><br>
         <a href="education.html"><b><i>Link to educational website</i></b></a>
         <br>
         <!--<a href="games.html"><b><i>Link to gaming website</i></b></a><br>-->
         <button class="insta-button"><a href="https://www.instagram.com/yashvashisth16/?next=%2F&hl=en" target="_blank">
             instagram
+        </a></button>
+        <br>
+        <button class="youtube-button"><a href="https://www.youtube.com/channel/UCo5hptkW-d16zlZfip4pLuA" target="_blank">
+            youtube channel
         </a></button>
     </p>
     </body>
